@@ -1,6 +1,6 @@
 ---
-path: '/first-post'
-title: 'Create API Keys for Binance'
+path: '/bittrex'
+title: 'Create API Keys for Bittrex'
 ---
 
 1. Login to your Binance.com account, and go to your Account Settings Page on the top right:

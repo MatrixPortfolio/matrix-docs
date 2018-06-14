@@ -1,5 +1,5 @@
 ---
-path: '/first-post'
+path: '/binance'
 title: 'Create API Keys for Binance'
 ---
 
