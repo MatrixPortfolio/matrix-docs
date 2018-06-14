@@ -30,6 +30,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-typography`,
     'gatsby-plugin-netlify-cache', // allows caching on netlify to reduce subsequent build times
     `gatsby-plugin-netlify`, // make sure to put last in the array
   ],
