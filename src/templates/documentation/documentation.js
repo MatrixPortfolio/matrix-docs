@@ -9,7 +9,7 @@ export default function DocTemplate({data}) {
   return(
     <div className="docs-template">
       <section className="docs-navigation">
-        <p>Connect Exchanges</p>
+        <p className="docs-nav-heading">Connect Exchanges</p>
         <ul>
           <li><Link to="/coinbase">Coinbase</Link></li>
           <li><Link to="/binance">Binance</Link></li>
@@ -25,8 +25,10 @@ export default function DocTemplate({data}) {
         </ul>
       </section>
       <div className="docs-content">
+       <div className="docs-content-wrapper">
         <h1>{doc.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{__html: doc.html}}></div>
+        </div>
       </div>
     </div>
   );

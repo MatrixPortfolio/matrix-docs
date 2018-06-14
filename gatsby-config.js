@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Knowledgebase',
+    title: 'Support',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

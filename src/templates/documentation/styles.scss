@@ -5,9 +5,24 @@
 .docs-navigation {
   background: #f2f2f2;
   padding: 25px;
+  .docs-nav-heading {
+    font-weight: 600;
+  }
+  ul {
+    list-style: none;
+    margin-left: 0;
+    font-size: 16px;
+  }
 }
+
 .docs-content {
   padding: 25px;
+  .docs-content-wrapper {
+    max-width: 740px;
+  }
+  h1 {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 40em) {
