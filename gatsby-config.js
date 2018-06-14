@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Matrix Portfolio Knowledgebase',
+    title: 'Knowledgebase',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

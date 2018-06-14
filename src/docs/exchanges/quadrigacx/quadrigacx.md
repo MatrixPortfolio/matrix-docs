@@ -1,6 +1,6 @@
 ---
-path: '/docs'
-title: 'Create API Keys for Binance'
+path: '/quadrigacx'
+title: 'Create API Keys for QuadrigaCX'
 ---
 
 1. Login to your Binance.com account, and go to your Account Settings Page on the top right:

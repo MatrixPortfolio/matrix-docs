@@ -1,6 +1,6 @@
 ---
-path: '/binance'
-title: 'Create API Keys for Binance'
+path: '/coinbase'
+title: 'Create API Keys for Coinbase'
 ---
 
 1. Login to your Binance.com account, and go to your Account Settings Page on the top right:

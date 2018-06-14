@@ -9,14 +9,19 @@ export default function DocTemplate({data}) {
   return(
     <div className="docs-template">
       <section className="docs-navigation">
-        <h2>Navigation</h2>
+        <p>Connect Exchanges</p>
         <ul>
-          <li><Link to="/binance/">Binance</Link></li>
-          <li><Link to="/bittrex/">Bittrex</Link></li>
-          <li><Link to="/bitfinex/">bitfinex</Link></li>
-          <li><Link to="/hitbtc/">hitbtc</Link></li>
-          <li><Link to="/poloniex/">poloniex</Link></li>
-          <li><Link to="/kraken/">kraken</Link></li>
+          <li><Link to="/coinbase">Coinbase</Link></li>
+          <li><Link to="/binance">Binance</Link></li>
+          {/* <li><Link to="/bitfinex">Bitfinex</Link></li> */}
+          {/* <li><Link to="/bitstamp">Bitstamp</Link></li> */}
+          <li><Link to="/bittrex">Bittrex</Link></li>
+          {/* <li><Link to="/cryptopia">Cryptopia</Link></li> */}
+          <li><Link to="/coinbase">GDAX</Link></li>
+          {/* <li><Link to="/hitbtc">Hitbtc</Link></li> */}
+          <li><Link to="/kraken">Kraken</Link></li>
+          {/* <li><Link to="/poloniex">Poloniex</Link></li> */}
+          {/* <li><Link to="/quadrigacx">QuadrigaCX</Link></li> */}
         </ul>
       </section>
       <div className="docs-content">
