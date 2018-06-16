@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
         textDecoration: 'none',
       }}
     >
-      <img src={logo} className="nav-logo" alt="logo" />
+      <img src={logo} className="header-logo" alt="logo" />
       <h1 className="title">{siteTitle}</h1>
     </Link>
     <nav className="header-nav">

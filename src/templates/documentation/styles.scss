@@ -1,33 +1,28 @@
 .docs-template {
   display: grid;
   grid-template-rows: 80px auto;
-  height: 100%;
 }
 .docs-container {
-  grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(24, 1fr);
 }
 .docs-navigation {
-  grid-column: 1 / 3;
+  grid-column: 1 / 5;
   background: #f2f2f2;
   padding: 25px;
   .docs-nav-heading {
     font-weight: 600;
+    font-size: 16px;
   }
   ul {
     list-style: none;
     margin-left: 0;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
-
 .docs-content {
-  grid-column: 3 / -1;
+  grid-column: 5 / -1;
   padding: 25px;
-  .docs-content-wrapper {
-    max-width: 740px;
-  }
   h1 {
     font-size: 24px;
   }

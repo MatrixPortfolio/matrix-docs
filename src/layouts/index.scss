@@ -630,12 +630,16 @@ pre tt:after {
 .container {
   display: grid;
   height: 100%;
-  grid-template-rows: auto 100px;
-}
-.main {
-  grid-column: 1 / -1; 
+  grid-template-rows: auto 60px;
 }
 .footer {
-  grid-column: 1 / -1; 
   background: #222;
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  p {
+    font-size: 11px;
+    color: #999;
+    margin: 0;
+  }
 }

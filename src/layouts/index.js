@@ -14,11 +14,9 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <div className="main">
-      {children()}
-    </div>
+    {children()}
     <div className="footer">
-      <p>Footer</p>
+      <p>Contact: support@matrixportfolio.com</p>
     </div>
   </div>
 )
