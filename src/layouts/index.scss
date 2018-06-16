@@ -1,3 +1,6 @@
+html, body, #___gatsby {
+  height: 100%;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -621,4 +624,18 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+// Custom CSS
+.container {
+  display: grid;
+  height: 100%;
+  grid-template-rows: auto 100px;
+}
+.main {
+  grid-column: 1 / -1; 
+}
+.footer {
+  grid-column: 1 / -1; 
+  background: #222;
 }
