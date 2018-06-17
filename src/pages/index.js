@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../img/matrix-portfolio-logo.svg'
 import mockup from '../img/matrix-portfolio-app-mockups.png';
-import styles from './styles.scss';
+import './styles.scss';
 
 const IndexPage = ({data}) => (
   <div className="container">

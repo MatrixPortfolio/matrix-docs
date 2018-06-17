@@ -1,3 +1,16 @@
+.container {
+  background: #311752;
+  display: grid;
+  height: 100%;
+  grid-template-rows: auto 60px;
+  color: #fff;
+}
+.footer {
+  background:#1E0C36;
+  display: flex;
+  padding: 25px;
+  align-items: center;
+}
 .logo {
   margin-bottom: 3rem;
 }

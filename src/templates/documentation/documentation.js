@@ -8,7 +8,7 @@ export default function DocTemplate({data}) {
 
   return(
     <div className="docs-template">
-      <Header siteTitle="Title" />
+      <Header siteTitle="Support" />
       <nav className="docs-navigation">
         <p className="docs-nav-heading">Connect Exchanges</p>
         <ul>
