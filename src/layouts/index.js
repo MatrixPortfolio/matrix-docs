@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header'
 import './index.scss'
 import facebook from '../img/social-facebook.svg';
 import twitter from '../img/social-twitter.svg';
