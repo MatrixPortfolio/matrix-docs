@@ -1,9 +1,6 @@
 .docs-template {
   display: grid;
   grid-template-rows: 80px auto;
-}
-.docs-container {
-  display: grid;
   grid-template-columns: repeat(24, 1fr);
 }
 .docs-navigation {
@@ -22,13 +19,13 @@
 }
 .docs-content {
   grid-column: 5 / -1;
-  padding: 25px;
+  padding: 25px;            
   h1 {
     font-size: 24px;
   }
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 50em) {
   .docs-navigation {
     grid-column: 1 / -1;
   }
