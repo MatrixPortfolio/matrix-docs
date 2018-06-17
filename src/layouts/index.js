@@ -14,8 +14,8 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Matrix Portfolio is the easiest and the most user-friendly app designed to help you manage and track your investments in Bitcoin, Ethereum, and 2000+ other altcoins and crypto currencies automatically with auto syncing and other time saving features.' },
+        { name: 'keywords', content: 'cryptocurrency, bitcoin, ethereum, altcoin, crypto, investment, portfolio' },
       ]}
     />
     {children()}

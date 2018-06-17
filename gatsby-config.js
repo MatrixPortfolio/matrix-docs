@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Support',
+    title: 'Easiest app to track cryptocurrencies, Bitcoin, Ethereum - Matrix Portfolio',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

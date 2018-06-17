@@ -8,7 +8,7 @@ const IndexPage = ({data}) => (
     <div className="wrapper">
       <img className="logo" src={logo} alt=""/>
       <h1>The <span>easiest</span> way to track your crypto investments.</h1>
-      <p className="coming">Coming Soon</p>
+      <p className="coming">Coming Soon (iOS & Android)</p>
 
       <div id="mc_embed_signup">
         <form action="https://matrixportfolio.us16.list-manage.com/subscribe/post?u=191aaef2a8e60afe888218666&amp;id=4185d212cc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
