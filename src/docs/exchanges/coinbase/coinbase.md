@@ -1,5 +1,5 @@
 ---
-path: '/coinbase'
+path: '/exchanges/coinbase'
 title: 'Create API Keys for Coinbase'
 ---
 

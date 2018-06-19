@@ -1,5 +1,5 @@
 ---
-path: '/hitbtc'
+path: '/exchanges/hitbtc'
 title: 'Create API Keys for HitBTC'
 ---
 

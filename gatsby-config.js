@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://matrixportfolio.com`,
     title: 'Easiest app to track cryptocurrencies, Bitcoin, Ethereum - Matrix Portfolio',
     description: 'Matrix Portfolio is the easiest and the most user-friendly app designed to help you manage and track your investments in Bitcoin, Ethereum, and 2000+ other altcoins and crypto currencies automatically with auto syncing and other time saving features.',
     keywords: 'cryptocurrency, bitcoin, ethereum, altcoin, crypto, investment, portfolio'
@@ -7,6 +8,13 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    'gatsby-transformer-remark',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-typography`,
+    {
+      resolve: 'gatsby-plugin-sitemap',
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -21,9 +29,6 @@ module.exports = {
         name: 'img',
       }
     },
-    'gatsby-transformer-remark',
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -39,25 +44,6 @@ module.exports = {
           },
         ],
       },
-    },
-    `gatsby-plugin-typography`,
-    {
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: "./src/img/favicon.png",
-        injectHTML: true,
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          firefox: true,
-          twitter: false,
-          yandex: false,
-          windows: false
-        }
-      }
     },
     'gatsby-plugin-netlify-cache', // allows caching on netlify to reduce subsequent build times
     `gatsby-plugin-netlify`, // make sure to put last in the array

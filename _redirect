@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://matrixportfolio.netlify.com/* http://matrixportfolio.com/:splat 301!

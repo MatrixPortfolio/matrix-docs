@@ -1,5 +1,5 @@
 ---
-path: '/binance'
+path: '/exchanges/binance'
 title: 'Create API Keys for Binance'
 ---
 

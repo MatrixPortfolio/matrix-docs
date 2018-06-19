@@ -1,5 +1,5 @@
 ---
-path: '/bittrex'
+path: '/exchanges/bittrex'
 title: 'Create API Keys for Bittrex'
 ---
 

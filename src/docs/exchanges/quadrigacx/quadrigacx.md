@@ -1,5 +1,5 @@
 ---
-path: '/quadrigacx'
+path: '/exchanges/quadrigacx'
 title: 'Create API Keys for QuadrigaCX'
 ---
 

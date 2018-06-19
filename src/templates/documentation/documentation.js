@@ -12,17 +12,17 @@ export default function DocTemplate({data}) {
       <nav className="docs-navigation">
         <p className="docs-nav-heading">Connect Exchanges</p>
         <ul>
-          <li><Link to="/coinbase">Coinbase</Link></li>
-          <li><Link to="/binance">Binance</Link></li>
-          {/* <li><Link to="/bitfinex">Bitfinex</Link></li> */}
-          {/* <li><Link to="/bitstamp">Bitstamp</Link></li> */}
-          <li><Link to="/bittrex">Bittrex</Link></li>
-          {/* <li><Link to="/cryptopia">Cryptopia</Link></li> */}
-          <li><Link to="/coinbase">GDAX</Link></li>
-          {/* <li><Link to="/hitbtc">Hitbtc</Link></li> */}
-          <li><Link to="/kraken">Kraken</Link></li>
-          {/* <li><Link to="/poloniex">Poloniex</Link></li> */}
-          {/* <li><Link to="/quadrigacx">QuadrigaCX</Link></li> */}
+          <li><Link to="/exchanges/coinbase">Coinbase</Link></li>
+          <li><Link to="/exchanges/binance">Binance</Link></li>
+          {/* <li><Link to="/exchanges/bitfinex">Bitfinex</Link></li> */}
+          {/* <li><Link to="/exchanges/bitstamp">Bitstamp</Link></li> */}
+          <li><Link to="/exchanges/bittrex">Bittrex</Link></li>
+          {/* <li><Link to="/exchanges/cryptopia">Cryptopia</Link></li> */}
+          <li><Link to="/exchanges/coinbase">GDAX</Link></li>
+          {/* <li><Link to="/exchanges/hitbtc">Hitbtc</Link></li> */}
+          <li><Link to="/exchanges/kraken">Kraken</Link></li>
+          {/* <li><Link to="/exchanges/poloniex">Poloniex</Link></li> */}
+          {/* <li><Link to="/exchanges/quadrigacx">QuadrigaCX</Link></li> */}
         </ul>
       </nav>
       <div className="docs-content">

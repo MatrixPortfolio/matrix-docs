@@ -1,5 +1,5 @@
 ---
-path: '/kraken'
+path: '/exchanges/kraken'
 title: 'Create API Keys for Kraken'
 ---
 

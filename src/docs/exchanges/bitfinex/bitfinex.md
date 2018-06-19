@@ -1,5 +1,5 @@
 ---
-path: '/bitfinex'
+path: '/exchanges/bitfinex'
 title: 'Create API Keys for Bitfinex'
 ---
 

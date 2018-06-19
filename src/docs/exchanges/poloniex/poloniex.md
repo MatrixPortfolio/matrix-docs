@@ -1,5 +1,5 @@
 ---
-path: '/poloniex'
+path: '/exchanges/poloniex'
 title: 'Create API Keys for Poloniex'
 ---
 
