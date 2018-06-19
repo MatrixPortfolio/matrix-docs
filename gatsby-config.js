@@ -45,6 +45,13 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-112800552-2",
+        exclude: ["/preview/**", "/admin/**"],
+      },
+    },
     'gatsby-plugin-netlify-cache', // allows caching on netlify to reduce subsequent build times
     `gatsby-plugin-netlify`, // make sure to put last in the array
   ],
