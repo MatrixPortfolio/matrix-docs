@@ -1,6 +1,7 @@
 import React from 'react';
+import Img from "gatsby-image";
+
 import logo from '../img/matrix-portfolio-logo.svg'
-import mockup from '../img/matrix-portfolio-app-mockups.png';
 import './styles.scss';
 
 const IndexPage = ({data}) => (
@@ -17,14 +18,24 @@ const IndexPage = ({data}) => (
           <div className="response" id="mce-error-response" style={{display:'none'}}></div>
           <div className="response" id="mce-success-response" style={{display:'none'}}></div>
           <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">
-            <input type="text" name="b_191aaef2a8e60afe888218666_4185d212cc" tabindex="-1" value="" />>
+            <input type="text" name="b_191aaef2a8e60afe888218666_4185d212cc" tabIndex="-1" value="" />>
           </div>
         </form>
       </div>
 
-      <img className="matrix-mockup-image" src={mockup} alt="Matrix Portfolio - Cryptocurrency, Bitcoin, Ethereum altcoin tracker"/>
+      <Img className="matrix-mockup-image" sizes={data.mainImage.sizes} alt="Matrix Portfolio - Cryptocurrency, Bitcoin, Ethereum altcoin tracker" />
     </div>
   </div>
 );
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  query mainImageQuery {
+    mainImage: imageSharp(id: { regex: "/matrix-portfolio-app-mockups/" }) {
+      sizes(maxWidth: 1260) {
+        ...GatsbyImageSharpSizes_withWebp_noBase64
+      }
+    }
+  }
+`

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import './index.scss'
+import favicon from '../img/favicon.ico';
 import facebook from '../img/social-facebook.svg';
 import twitter from '../img/social-twitter.svg';
 import reddit from '../img/social-reddit.svg';
@@ -13,10 +14,12 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Matrix Portfolio is the easiest and the most user-friendly app designed to help you manage and track your investments in Bitcoin, Ethereum, and 2000+ other altcoins and crypto currencies automatically with auto syncing and other time saving features.' },
-        { name: 'keywords', content: 'cryptocurrency, bitcoin, ethereum, altcoin, crypto, investment, portfolio' },
+        { name: 'description', content: `${data.site.siteMetadata.title}` },
+        { name: 'keywords', content: `${data.site.siteMetadata.keywords}` },
       ]}
-    />
+    >
+      <link rel="shortcut icon" href={favicon} />
+    </Helmet>
     {children()}
     <div className="footer">
       <p>Made with ❤️ in Toronto.</p>
@@ -41,6 +44,8 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        description
+        keywords
       }
     }
   }

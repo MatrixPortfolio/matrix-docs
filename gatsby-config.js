@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Easiest app to track cryptocurrencies, Bitcoin, Ethereum - Matrix Portfolio',
+    description: 'Matrix Portfolio is the easiest and the most user-friendly app designed to help you manage and track your investments in Bitcoin, Ethereum, and 2000+ other altcoins and crypto currencies automatically with auto syncing and other time saving features.',
+    keywords: 'cryptocurrency, bitcoin, ethereum, altcoin, crypto, investment, portfolio'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -12,7 +14,15 @@ module.exports = {
         name: 'docs',
       }
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/img`,
+        name: 'img',
+      }
+    },
     'gatsby-transformer-remark',
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
